@@ -39,7 +39,7 @@ function ToyForm({ onNewToy }) {
         <h3>Create a toy!</h3>
         <input
           onChange={handleChange}
-          type="text"`
+          type="text"
           name="name"
           placeholder="Enter a toy's name..."
           value={form.name}
